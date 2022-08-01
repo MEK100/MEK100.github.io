@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Building Code Status</title>
+  <title>REfrigeration Code Status</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
@@ -117,7 +117,7 @@ var div = d3.select("#map")
     		.style("opacity", 0);
 
 // Load in data
-d3.csv("BuildingCode.csv", function(data) {
+d3.csv("RefrigerationCode.csv", function(data) {
 	var dataArray = [];
 	for (var d = 0; d < data.length; d++) {
 		dataArray.push(parseFloat(data[d].counts))
