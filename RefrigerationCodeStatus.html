@@ -117,7 +117,7 @@ var div = d3.select("#map")
     		.style("opacity", 0);
 
 // Load in data
-d3.csv("RefrigerationCodes.csv", function(data) {
+d3.csv("RefrigerationCode.csv", function(data) {
 	var dataArray = [];
 	for (var d = 0; d < data.length; d++) {
 		dataArray.push(parseFloat(data[d].counts))
@@ -208,11 +208,11 @@ d3.csv("RefrigerationCodes.csv", function(data) {
 
 </script>
 <div class="legend">
-<div><div class='box green'></div> Completed for A2L Adoption</div>
+<div><div class='box green'></div> Completed for Low GWP refrigerant Adoption</div>
 <br>
 <div><div class='box hash'></div> Allows A2L in some cases: partially complete</div>
 <br>
-<div><div class='box yellow'></div> In process for A2L adoption</div>
+<div><div class='box yellow'></div> In process for Low GWP refrigerant adoption</div>
 <br>
 <div><div class='box blue'></div> Targeted for 2023</div>
 </div>
