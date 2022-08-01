@@ -117,7 +117,7 @@ var div = d3.select("#map")
     		.style("opacity", 0);
 
 // Load in data
-d3.csv("RefrigerationCode.csv", function(data) {
+d3.csv("RefrigerationCodes.csv", function(data) {
 	var dataArray = [];
 	for (var d = 0; d < data.length; d++) {
 		dataArray.push(parseFloat(data[d].counts))
