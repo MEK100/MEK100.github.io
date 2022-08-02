@@ -46,7 +46,7 @@
 }
 
 .vblue {
-  background-color: #001B61;
+  background-color: #0135AC;
 }
 
 .mblue {
@@ -77,7 +77,7 @@
   </style>
 </head>
 <body>
-<h2>States highlighted in color have taken action on refrigeration applications in building codes for alternative refrigerants. Hover over a state for a summary of its status, or click to be redirected to the state's official actions.</h2>
+<h2>States highlighted in color have taken action on refrigeration applications in building codes for low GWP alternative refrigerants. Hover over a state for a summary of its status, or click to be redirected to the state's official actions.</h2>
 <h3>Last updated: August 1, 2022</h3>
     <div id="map" style="text-align: center;"></div>
 
@@ -90,7 +90,7 @@ var height = 600;
 
 var noColor = '#74A9CF'
 var progressColor = '#FFFF33'
-var completeColor = '#5AAE61'
+var completeColor = '#0135AC'
 var hashColor = '#A6DBA0'
 
 // D3 Projection
@@ -208,7 +208,7 @@ d3.csv("RefrigerationCode.csv", function(data) {
 
 </script>
 <div class="legend">
-<div><div class='box green'></div> Completed for Low GWP refrigerant Adoption</div>
+<div><div class='box vblue'></div> Completed for Low GWP refrigerant Adoption</div>
 <br>
 <div><div class='box hash'></div> Allows Low GWP refrigerant in some cases: partially complete</div>
 <br>
