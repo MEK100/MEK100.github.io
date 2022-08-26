@@ -165,10 +165,10 @@ d3.csv("BuildingCode.csv", function(data) {
           // Copy the data value into the JSON
           json.features[j].properties.counts = dataValue;
           json.features[j].properties.link = linkValue
-          json.features[j].properties.status = statusValue
-          json.features[j].properties.more = moreValue
+          json.features[j].properties.status = dateValue
+          json.features[j].properties.more = summaryValue
           json.features[j].properties.code = codeValue
-          json.features[j].properties.summary = summaryValue
+          json.features[j].properties.summary = moreValue
           json.features[j].properties.implement = implementValue
 
           // Stop looking through the JSON
