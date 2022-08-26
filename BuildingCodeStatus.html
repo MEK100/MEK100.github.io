@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Building Code Status</title>
+  <title>A/C Building Code Status</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
@@ -23,7 +23,7 @@
   div.tooltip {   
     position: absolute;           
     text-align: center;           
-    width: 290px;                  
+    width: 200px;                  
     height: 200px;                 
     padding: 2px;             
     font: 12px sans-serif;        
@@ -142,16 +142,16 @@ d3.csv("BuildingCode.csv", function(data) {
       var linkValue = data[i].link;
 
       // Grab data value 
-      var statusValue = data[i].status;
+      var dateValue = data[i].date;
       
       // Grab data value 
-      var moreValue = data[i].more;
+      var summaryValue = data[i].summary;
       
       // Grab data value 
       var codeValue = data[i].code;
 
       // Grab data value 
-     var summaryValue = data[i].summary;    
+     var moreValue = data[i].more;    
 
       // Grab data value 
       var implementValue = data[i].implement;
