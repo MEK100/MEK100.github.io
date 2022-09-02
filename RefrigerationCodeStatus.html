@@ -41,7 +41,7 @@
   clear: both;
 }
 
-.ltblue {
+.partial {
   background-color: #A6DBA0;
 }
 
@@ -50,7 +50,7 @@
 }
 
 .yellow {
-  background-color: #1C3B8A;
+  background-color: #FFFF33;
 }
 	  
 .white {
@@ -88,10 +88,10 @@
 var width = 900;
 var height = 600;
 
-var noColor = '#74A9CF'
+var noColor = '#88A6F2'
 var progressColor = '#FFFF33'
 var completeColor = '#0135AC'
-var hashColor = '#1C3B8A'
+var partialColor = '#A6DBA0'
 
 // D3 Projection
 var projection = d3.geoAlbersUsa()
@@ -124,7 +124,7 @@ d3.csv("RefrigerationCode.csv", function(data) {
 	}
 	var minVal = d3.min(dataArray)
 	var maxVal = d3.max(dataArray)
-	var ramp = d3.scaleOrdinal().domain([0,1,2,3]).range([noColor,progressColor,completeColor,hashColor])	
+	var ramp = d3.scaleOrdinal().domain([0,1,2,3]).range([noColor,progressColor,completeColor,partialColor])	
 
   // Load GeoJSON data and merge with states data
   d3.json("us-states.json", function(json) {
