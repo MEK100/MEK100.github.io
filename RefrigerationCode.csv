@@ -1,14 +1,10 @@
 state_id,counts,link,status,more,summary,implement
-Alabama,3,,Interpretation that IMC addresses A2Ls.,,A2Ls for IMC; in process for IRC,
-Alaska,1,,ICC Code proposal submitted,,,"In process, TBD"
-Arizona,2,https://apps.azleg.gov/BillStatus/BillOverview ," SB 1376 (Sen. Gray)
-Expected effective date by Oct. 1, 2022.
-Session Ends: 5/13/22  https://apps.azleg.gov/BillStatus/BillOverview once on the landing page enter: SB1376 to review the status. ",Click for more info,Completed; all SNAP-approved low GWP refrigerants,Expected Effective Date: September 2022
-Arkansas,0,Expected 2023,,,,
-California,3,,Intervening Code Cycle to address larger refrigerant charges,,Partially Completed; small charge A2L refrigerants,
-Colorado,2,https://leg.colorado.gov/bills/hb22-1362,"AHRI submitted changes to Denver, need to submit changes to other cities.
-Bill signed by Govenor on June 2, 2022"
-",Click for more info,"AHRI submitted changes to Denver, need to submit changes to other cities.",Expected effective date Aug. 3 or Aug 9, 2022
+Alabama,0,
+Alaska,0,
+Arizona,2, Expt effective date by Oct. 1, 2022.
+Arkansas,0,
+California,2,
+Colorado,2, Expected effective date Aug 9, 2022
 Connecticut,2,https://portal.ct.gov/DAS/Office-of-State-Building-Inspector/Codes-and-Standards-Committee,"Approved AHRI amendments to modify the IRC and IMC to (1) delete ANCE from M1402, M1403, M1412 and M1413, (2) update UL/CSA 60335-2-40 to 2019 edition in Ch 44 of IRC and (3) update UL/CSA 60335-2-40 to 2019 in Ch 15 of IMC. A2L refrigerants per ICC",Click for more info,Completed; A2L refrigerants per ICC,Effective Date: 10/1/2022
 Delaware,1,,ICC Code proposal submitted,,"In process, TBD",
 Florida,2,,"IRC/IMC updated for 15-2019, 34-2019 and -2-40-2019",,Completed; ,Effective Date: 1/1/2021
@@ -40,9 +36,9 @@ https://house.mo.gov/Bill.aspx?bill=HB2673","HB 2673/SB 1069
 Committee substitutes have been prepared.
 House Conservation and Natural Resources Committee hearing 3/28.
 Senate Commerce Committee hearing 3/30",Click for more info,"In process, near completion",
-Montana,0,,,,TBD,
-Nebraska,0,,,,TBD,
-Nevada,0,,,,TBD,
+Montana,0,
+Nebraska,0,
+Nevada,0,
 New Hampshire,1,,,,Starting process in Fall 2022,
 New Jersey,2,,New Jersey has special provision in the law that allows new technology provided it is listed by a third party agency and used in the capacity of the listing.   ,,Target 2022 Effective date based on UL 2-40 which is December 2019,
 New Mexico,0,,,,TBD,
